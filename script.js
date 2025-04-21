@@ -57,45 +57,45 @@ function clock() {
 function photoOfTheDay(){
     //Sunday
     if (day == 0){
-        homePhoto.src = "/images/me5/me-1500.png";
-        homePhoto.srcset = "/images/me5/me-3000.png 2x, /images/me5/me-4500.png 3x";
+        homePhoto.src = "./images/me5/me-1500.png";
+        homePhoto.srcset = "./images/me5/me-3000.png 2x, ./images/me5/me-4500.png 3x";
     
     }
 
     //Monday
     if (day == 1){
-        homePhoto.src = "/images/me2/me-1500.png";
-        homePhoto.srcset = "/images/me2/me-3000.png 2x, /images/me2/me-4500.png 3x";
+        homePhoto.src = "./images/me2/me-1500.png";
+        homePhoto.srcset = "./images/me2/me-3000.png 2x, ./images/me2/me-4500.png 3x";
     }
 
     //Tuesday
     if (day == 2){
-        homePhoto.src = "/images/me1/me-1500.png";
-        homePhoto.srcset = "/images/me1/me1-3000.png 2x, /images/me1/me1-4500.png 3x";
+        homePhoto.src = "./images/me1/me-1500.png";
+        homePhoto.srcset = "./images/me1/me1-3000.png 2x, ./images/me1/me1-4500.png 3x";
     }
 
     //Wednesday
     if (day == 3){
-        homePhoto.src = "/images/me3/me-1500.png";
-        homePhoto.srcset = "/images/me3/me-3000.png 2x, /images/me3/me-4500.png 3x";
+        homePhoto.src = "./images/me3/me-1500.png";
+        homePhoto.srcset = "./images/me3/me-3000.png 2x, ./images/me3/me-4500.png 3x";
     }
 
     //Thursday
     if (day == 4){
-        homePhoto.src = "/images/me4/me-1500.png";
-        homePhoto.srcset = "/images/me4/me-3000.png 2x, /images/me4/me-4500.png 3x";
+        homePhoto.src = "./images/me4/me-1500.png";
+        homePhoto.srcset = "./images/me4/me-3000.png 2x, ./images/me4/me-4500.png 3x";
     }
 
     //Friday
     if (day == 5){
-        homePhoto.src = "/images/me6/me-1500.png";
-        homePhoto.srcset = "/images/me6/me-3000.png 2x, /images/me6/me-4500.png 3x";
+        homePhoto.src = "./images/me6/me-1500.png";
+        homePhoto.srcset = "./images/me6/me-3000.png 2x, ./images/me6/me-4500.png 3x";
     }
 
     //Saturday
     if (day == 6){
-        homePhoto.src = "/images/main/me-1500.png";
-        homePhoto.srcset = "/images/main/me-3000.png 2x, /images/main/me-4500.png 3x";
+        homePhoto.src = "./images/main/me-1500.png";
+        homePhoto.srcset = "./images/main/me-3000.png 2x, ./images/main/me-4500.png 3x";
     }
 
     console.log("changed");
