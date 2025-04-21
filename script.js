@@ -120,6 +120,10 @@ function mobileNav(){
 }
 
 //running clock & photo of the day functions
-setInterval(clock, 100);
-photoOfTheDay();
-    
+//setInterval(clock, 100);
+
+//waiting for all DOM content to load before running functions
+window.addEventListener('DOMContentLoaded', function () {
+    setInterval(clock, 100);
+    photoOfTheDay();
+});
