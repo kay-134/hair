@@ -33,7 +33,7 @@ I built this site to:
 ## 🚀 Tech Stack
 
 This site is built with:
-- **HTML/CSS**
+- **HTML/CSS/JS**
 
 ---
 
